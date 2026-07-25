@@ -61,7 +61,7 @@ export default function Home({ navigation }) {
   return (
     <PaperProvider>
       <Appbar.Header style={styles.header}>
-        <Appbar.Content title="Buscador de Filmes" titleStyle={styles.headerTitle} />
+        <Appbar.Content title="Locadora de dados" titleStyle={styles.headerTitle} />
       </Appbar.Header>
 
       <View style={styles.container}> 

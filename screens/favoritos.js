@@ -33,12 +33,10 @@ export default function Favoritos({ navigation }) {
 
       <View style={styles.container}> 
         
-        {/* Se a lista estiver vazia, mostramos um aviso */}
         {listaFavoritos.length === 0 ? (
           <Text style={{ textAlign: 'center', marginTop: 20 }}>Nenhum filme salvo ainda.</Text>
         ) : (
           <ScrollView>
-            {/* O .map() passa por cada filme da lista e desenha na tela */}
             {listaFavoritos.map((filme, index) => (
               <Card key={index} style={{ marginBottom: 15 }}>
                 <Card.Content>
