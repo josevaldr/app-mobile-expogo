@@ -1,53 +1,83 @@
-
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-  tela: {
+  container: {
     flex: 1,
     backgroundColor: '#121212',
+    padding: 16,
   },
-
-  
+  header: {
+    backgroundColor: '#F5C518',
+  },
+  headerTitle: {
+    color: '#000000',
+    fontWeight: 'bold',
+  },
+  secaoTitulo: {
+    color: '#F5C518',
+    fontSize: 20,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 15,
+  },
+  input: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
+    color: '#000000',
+    borderRadius: 8,
+    paddingHorizontal: 12,
+    height: 48,
+    fontSize: 16,
+    marginRight: 10,
+  },
+  botaoFavoritosContainer: {
+    marginBottom: 20,
+  },
+  erroTexto: {
+    color: '#ff4444',
+    textAlign: 'center',
+    marginBottom: 10,
+  },
   card: {
-    margin: 15,
+    marginVertical: 10,
     backgroundColor: '#252525',
     borderRadius: 22,
     overflow: 'hidden',
     elevation: 5,
   },
-
-
-  imagem: {
-    width: '100%',
-    height: 400,
+  conteudo: {
+    padding: 16,
   },
-
-  
   titulo: {
     color: '#F5C518',
-    fontSize: 28,
+    fontSize: 26,
     fontWeight: 'bold',
-    marginTop: 15,
-    marginBottom: 10,
+    marginBottom: 8,
   },
-
   nota: {
     color: '#F5C518',
-    marginBottom: 15,
+    fontSize: 14,
+    marginBottom: 8,
+    fontWeight: 'bold',
   },
 
+  diretor: {
+    color: '#F5C518',
+    fontSize: 14,
+    marginBottom: 12,
+    fontWeight: 'bold',
+  },
   texto: {
     color: '#FFFFFF',
-    lineHeight: 28,
-    fontSize: 17,
+    lineHeight: 24,
+    fontSize: 16,
+    textAlign: 'justify',
   },
-
-  conteudo: {
-    padding: 1,
+  botaoSalvarContainer: {
+    paddingBottom: 30,
   },
-
-
-    header: {
-      backgroundColor: '#F5C518',
-    },
 });
